@@ -1,4 +1,7 @@
 # STIGS_BASHSCRIPT
+
+![photo_2024-03-10_18-36-52](https://github.com/danielamoh1/STIGS_BASHSCRIPT/assets/160555417/a51da9aa-68c7-4be2-98fe-ccbcf31274b9)
+
 I made a bash script is designed to automate the process of applying DISA STIG (Defense Information Systems Agency Security Technical Implementation Guide) compliance measures to a CentOS/RHEL system. So to get into it:
 
 
