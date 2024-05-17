@@ -25,4 +25,10 @@ For configuring auditd, I would modify the /etc/audit/auditd.conf file using the
 
 Lastly, I would set SELinux to enforcing mode by running the setenforce 1 command and modifying the /etc/selinux/config file to change SELINUX=permissive to SELINUX=enforcing using the sed command.
 
-In summary, this script automates the process of applying DISA STIG compliance measures to a CentOS/RHEL system by performing a series of steps that enhance security, configure system settings, and enforce policies to meet the STIG requirements.
+
+================ Now for the RHEL 9 STIG script:
+
+The script is designed to apply essential Security Technical Implementation Guide (STIG) hardening configurations to a Red Hat Enterprise Linux 9 (RHEL 9) system. It sets restrictive permissions on critical directories like /etc/cron.d and /var/log, updates network security settings through sysctl, enables comprehensive auditing for key system files and events, configures logging settings, disables core dumps to prevent sensitive data leakage, restricts cron usage to authorized users, and disables unused filesystem modules. Additionally, it ensures no execute permissions on user home directories and makes audit logs immutable to prevent tampering. These measures collectively enhance the security and compliance of the RHEL 9 system according to DISA STIG guidelines.
+
+
+In summary, theses scripts automates the process of applying DISA STIG compliance measures to a CentOS/RHEL system by performing a series of steps that enhance security, configure system settings, and enforce policies to meet the STIG requirements.
