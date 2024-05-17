@@ -1,4 +1,4 @@
-# STIGS_BASHSCRIPT
+# STIGS_BASHSCRIPT (RHEL 7 & 9)
 
 ![photo_2024-03-10_18-36-52](https://github.com/danielamoh1/STIGS_BASHSCRIPT/assets/160555417/a51da9aa-68c7-4be2-98fe-ccbcf31274b9)
 
